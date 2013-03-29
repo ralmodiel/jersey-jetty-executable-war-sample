@@ -12,7 +12,7 @@ import javax.ws.rs.core.UriInfo;
 import org.apache.log4j.Logger;
 
 /**
- * Root resource for handling cleanse requests.
+ * Sample resource.
  */
 @Path("/sample")
 public class SampleRestWS {
