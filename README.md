@@ -13,6 +13,10 @@ Run (non-Windows):
    - mvn clean package
    - java -DCONFIGPATH=.\sample.properties -jar .\target\jersey-jetty-executable-war-sample.war
    
+Test:
+   - http://localhost:8383/sample/hello/there/json
+   - http://localhost:8383/sample/hello/there/xml/anything-goes-here
+   
 Enable Enunciate (Javadocs):
    - edit pom.xml and un-comment the enunciate plugin
    - mvn clean package
