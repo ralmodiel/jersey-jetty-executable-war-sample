@@ -24,8 +24,6 @@ public class SampleRestWS {
 	/**
 	 * Sample REST WS with JSON response
 	 * 
-	 * @param  status Goal status ("All" / "In Progress" / "Achieved").
-	 * 
 	 * @see    SampleObject
 	 */
 	@GET
