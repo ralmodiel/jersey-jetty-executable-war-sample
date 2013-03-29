@@ -21,4 +21,12 @@ Enable Enunciate (Javadocs):
    - edit pom.xml and un-comment the enunciate plugin
    - mvn clean package
    - check the html generated inside the .\target\enunciate\build\docs\docs folder
+   -
+
+To disable payload compression:
+   - edit web.xml and comment the <init-param> section for ContainerRequestFilters and ContainerResponseFilters. 
+   - 
+
+
+
    
