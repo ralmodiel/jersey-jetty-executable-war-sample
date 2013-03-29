@@ -31,7 +31,7 @@ public class SampleRestWS {
 	@GET
 	@Path("/hello/there/json")
 	@Produces("application/json")
-	public synchronized SampleObject helloThereJson(
+	public SampleObject helloThereJson(
 			final @Context UriInfo ui 
 			,@Context HttpServletRequest httpReq
 			,@Context HttpServletResponse httpResp) {
@@ -54,7 +54,7 @@ public class SampleRestWS {
 	@GET
 	@Path("/hello/there/xml/{anything}")
 	@Produces("application/xml")
-	public synchronized SampleObject helloThereXML(
+	public SampleObject helloThereXML(
 		    @PathParam("anything") String anything
 			,final @Context UriInfo ui 
 			,@Context HttpServletRequest httpReq
