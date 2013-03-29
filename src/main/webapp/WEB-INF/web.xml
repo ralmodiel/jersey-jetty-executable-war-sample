@@ -22,7 +22,7 @@
 <!--     
     <filter>
 		<filter-name>CrossScriptAllowedOrigin</filter-name>
-		<filter-class>com.brainstalk.filters.CrossScriptAllowedOriginFilter</filter-class>
+		<filter-class>org.github.roqs23.filters.CrossScriptAllowedOriginFilter</filter-class>
     </filter> -->
 	<servlet-mapping>
 		<servlet-name>jersey-jetty-executable-war-sample</servlet-name>
