@@ -11,6 +11,6 @@ Run (non-Windows):
 	
 Enable Enunciate (Javadocs):
     - edit pom.xml and un-comment the enunciate plugin
-	- mvn clean package
-	- check the docs generated inside the target folder
+    - mvn clean package
+    - check the html generated inside the .\target\enunciate\build\docs\docs folder
 	
