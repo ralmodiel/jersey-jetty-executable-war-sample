@@ -1,3 +1,7 @@
+Download
+   - git clone https://github.com/roqs23/jersey-jetty-executable-war-sample.git
+   - cd jersey-jetty-executable-war-sample
+
 Configure 
    - edit jetty.port in sample.properties 
 
